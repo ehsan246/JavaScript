@@ -1,4 +1,123 @@
 
+//////////////////////////////////////////
+//////          SECTION #11         //////
+//////////////////////////////////////////
+// FUNCTION DECLARATION
+
+
+
+// function greet(firstName = 'John', lastName = 'Doe'){
+//     //console.log('Hello');
+//     return 'Hello ' + firstName + ' ' + lastName;
+
+// }
+
+
+
+
+
+// // FUNCTION EXPRESIONS
+
+// console.log(greet());
+
+// const square = function(x =){
+//     return x*x;
+// };
+
+// console.log(square());
+
+
+
+
+// IMMIDIATLEY INVOKABLE FUNCTION EXPRESSIONS
+
+// (function(){
+//     console.log('IIFE run...');
+// })();
+
+
+
+
+// (function(name){
+//     console.log('IIFE run...' + name);
+// })('Brad');
+
+
+
+
+
+// // PROPERTY METHODS
+
+// const todo = {
+//     add: function(){
+//         console.log('Add todo..');
+//     },
+//     edit: function(id){
+//         console.log(`Edit to do ${id}`);
+//     }
+// }
+
+// // TO DECLEAR FUNCTION OF THIS OBJECT OUTSIDE OF THIS OBJECT
+// todo.delete = function(){
+//     console.log('Delete');
+// }
+
+// todo.delete();
+
+// todo.add();
+// todo.edit(22);
+
+
+
+
+
+//////////////////////////////////////////
+//////          SECTION #10         //////
+//////////////////////////////////////////
+// Switch
+
+// const color = 'red';
+
+// switch(color){
+//     case 'red':
+//         console.log('color is red');
+//         break;
+//     case 'blue':
+//         console.log('color is blue');
+//         break;
+//     default:
+//         console.log('Color is not red or blue');
+//         break;
+// }
+
+// switch(new Date().getDay()){
+//     case 0:
+//         day = 'Sunday';
+//         break;
+//     case 1:
+//         day = 'Monday';
+//         break;
+//     case 2:
+//         day = 'Tuesday';
+//         break;
+//     case 3:
+//         day = 'Wednesday';
+//         break;
+//     case 4:
+//         day = 'Thursday';
+//         break;
+//     case 5:
+//         day = 'Friday';
+//         break;
+//     case 6:
+//         day = 'Saturday';
+//         break;
+                
+// }
+// console.log(day);
+
+
+
 
 
 //////////////////////////////////////////
